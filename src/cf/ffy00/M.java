@@ -11,6 +11,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
+import java.util.HashMap;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
@@ -31,6 +32,7 @@ public class M extends JavaPlugin implements Listener{
     private static File pasta;
     private FileConfiguration configData = null;
     private File dataFile = new File (pasta, "data.yml");
+    private HashMap nomes = new HashMap<String, String>();
 
     // Metodo De Iniciar Config
     public void setupConfig(){
