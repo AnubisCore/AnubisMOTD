@@ -1,5 +1,5 @@
 # AnubisNoMaxPlayers
-Change the player limit to {current-player-count}+1 .
+Custom MOTD plugin with Player name in-motd support.
 
 ### License
 Simple Non Code License (SNCL) v1.10.0
